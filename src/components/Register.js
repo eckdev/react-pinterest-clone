@@ -51,8 +51,7 @@ function Register() {
             })
             .then((response) => {
                 console.log(response);
-              const result = response.data;
-              if (result) {
+              if (response.status === 200) {
                 setName("");
                 setEmail("");
                 setPassword("");
