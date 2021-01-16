@@ -52,8 +52,6 @@ function Register(props) {
                 password: password,
             })
                 .then((response) => {
-                    console.log(response);
-                    debugger;
                     if (response.status === 200) {
                         setName("");
                         setEmail("");

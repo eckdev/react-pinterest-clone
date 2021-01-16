@@ -4,7 +4,6 @@ import CarDetail from './CarDetail'
 import styles from './cars.module.css';
 
 function CarList({ cars }) {
-    console.log(cars)
     const [imagesLoaded, setimagesLoaded] = useState(false);
     const [openDetail, setopenDetail] = useState(false);
     const [selectedIndex, setselectedIndex] = useState(0)
